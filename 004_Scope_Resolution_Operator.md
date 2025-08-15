@@ -14,7 +14,7 @@ class HumanBeing {
         void speak();
 };
 
-// string HumanBeing::name = "Shivangi";       only static properties can be initialized outside the class
+// string HumanBeing::name = "Shivangi";       error in this line (only static properties can be initialized outside the class)
 
 void HumanBeing::speak() {
     cout<<"My name is "<<HumanBeing::name<<endl;
